@@ -1,2 +1,4 @@
 # json-one
-json experiments
+json experiments with **gradle** and **jackson**
+
+- custom deserializer
