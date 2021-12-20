@@ -11,7 +11,7 @@ import java.time.format.DateTimeParseException;
 
 public class ZonedDateTimeDeserializer extends StdDeserializer<ZonedDateTime> {
 
-    public static String DATE_PATTERN = "yyyy-MM-dd'T'HH:mm:ss";
+    public static final String DATE_PATTERN = "yyyy-MM-dd'T'HH:mm:ss";
 
     public ZonedDateTimeDeserializer() {
         this(null);

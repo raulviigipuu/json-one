@@ -17,7 +17,7 @@ public class InstantDeserializer extends StdDeserializer<Instant> {
 
     private static final Logger LOG = LoggerFactory.getLogger(InstantDeserializer.class);
 
-    public static String DATE_FORMAT = "yyyy-MM-dd'T'HH:mm:ss";
+    public static final String DATE_FORMAT = "yyyy-MM-dd'T'HH:mm:ss";
 
     public InstantDeserializer() {
         this(null);
