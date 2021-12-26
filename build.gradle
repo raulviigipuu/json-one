@@ -21,6 +21,14 @@ application {
     mainClass = 'dev.jsonone.App'
 }
 
+sourceSets {
+  test {
+    resources {
+      srcDir 'test'
+    }
+  }
+}
+
 tasks.named('test') {
     useJUnitPlatform()
 }
